@@ -18,7 +18,7 @@ import shutil
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 logging.getLogger('requests_kerberos').setLevel(logging.WARNING)
-working_path=r'E:\Fetch_Spec\FetchSpec6.3.2024'#'#os.getcwd()  #r'C:\Python\Fething Spec\dist\FetchSPEC' #
+working_path=r'C:\Python\Fething Spec'#'E:\Fetch_Spec\FetchSpec6.3.2024'#'#os.getcwd()  #r'C:\Python\Fething Spec\dist\FetchSPEC' #
 File_path = pathlib.Path(os.path.join(working_path, "Doc"))
 File_History_path = pathlib.Path(os.path.join(working_path, "Doc_History"))
 cert_url=pathlib.Path(os.path.join(working_path, "IntelSHA256RootCA-base64.crt"))
